@@ -13,7 +13,7 @@ pipeline {
         stage('clone down openshift repo') {
             steps {                
                 git branch: 'master',
-                    credentialsId: 'github_jenkins',      
+                    credentialsId: 'raissa_ID',      
                         url: 'https://github.com/oscarose/class2020.git'
             }
         }
